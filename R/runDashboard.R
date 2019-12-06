@@ -18,4 +18,4 @@ runDashboard <- function(){
 
   shiny::runApp(appDir, display.mode = "normal")
 }
-
+"runDashboard"
