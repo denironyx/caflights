@@ -17,3 +17,7 @@ airports <- read_csv("C:/Users/LENOVO/Documents/Data science project/caflights15
 usethis::use_data(flights, compress = "bzip2")
 usethis::use_data(airlines, compress = "bzip2")
 usethis::use_data(airports, compress = "bzip2")
+
+airports %>%
+  filter(state == "CA") %>%
+  glimpse()

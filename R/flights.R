@@ -1,6 +1,6 @@
 #' Flights data
 #'
-#' On-time data for all flights that departed CA (i.e. JFK, LGA or EWR) in
+#' On-time data for all flights that departed CA (i.e. LAX, SAN, SFO, PSP, SNA, OAK, ONT, SJC, ACV, BFL, BUR, CEC, CLD, FAT, LGB, MMH, MRY, RDD,SBA,SMF or SMX) in
 #' 2015.
 #'
 #' @source RITA, Bureau of transportation statistics,
