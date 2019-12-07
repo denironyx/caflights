@@ -1,5 +1,6 @@
-#' Title
+#' CA flight Dashboard
 #'
+#'This dashboard explore the datasets in the \code{caflights} package. It shows all flights that departed from California to various destinations in the United States, Puerto Rico, and the American Virgin Islands) in 2015. You can find the dashboard repository from this link \url{https://github.com/denironyx/caflights15}
 #' @return
 #'
 #' @examples
