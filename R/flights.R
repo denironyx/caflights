@@ -4,7 +4,7 @@
 #' 2015.
 #'
 #' @source RITA, Bureau of transportation statistics,
-#'  \url{https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236}
+#'  \url{https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time}
 #' @format Data frame with columns
 #' \describe{
 #' \item{year, month, day}{Date of departure.}
@@ -18,9 +18,6 @@
 #' \item{origin, dest}{Origin and destination. See \code{\link{airports}} for
 #'   additional metadata.}
 #' \item{distance}{Distance between airports, in miles.}
-#' \item{hour, minute}{Time of scheduled departure broken into hour and minutes.}
-#' \item{time_hour}{Scheduled date and hour of the flight as a \code{POSIXct} date.
-#'   Along with \code{origin}, can be used to join flights data to weather data.}
 #' }
 #'
 "flights"
