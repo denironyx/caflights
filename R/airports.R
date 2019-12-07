@@ -6,7 +6,7 @@
 #' @format A data frame with columns:
 #' \describe{
 #'  \item{iata_code}{IATA airport code.}
-#'  \item{airport_name}{Usual name of the aiport.}
+#'  \item{airport_name}{Usual name of the airport.}
 #'  \item{city}{City where the airport is located.}
 #'  \item{state}{State where the airport is located}
 #'  \item{country}{United States of America (USA)}
