@@ -17,19 +17,16 @@
 \item{origin, dest}{Origin and destination. See \code{\link{airports}} for
   additional metadata.}
 \item{distance}{Distance between airports, in miles.}
-\item{hour, minute}{Time of scheduled departure broken into hour and minutes.}
-\item{time_hour}{Scheduled date and hour of the flight as a \code{POSIXct} date.
-  Along with \code{origin}, can be used to join flights data to weather data.}
 }}
 \source{
 RITA, Bureau of transportation statistics,
- \url{https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236}
+ \url{https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time}
 }
 \usage{
 flights
 }
 \description{
-On-time data for all flights that departed CA (i.e. JFK, LGA or EWR) in
+On-time data for all flights that departed CA (i.e. LAX, SAN, SFO, PSP, SNA, OAK, ONT, SJC, ACV, BFL, BUR, CEC, CLD, FAT, LGB, MMH, MRY, RDD,SBA,SMF or SMX) in
 2015.
 }
 \keyword{datasets}

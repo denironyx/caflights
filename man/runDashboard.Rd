@@ -2,7 +2,7 @@
 % Please edit documentation in R/runDashboard.R
 \name{runDashboard}
 \alias{runDashboard}
-\title{California Flights Dashboard}
+\title{Title}
 \usage{
 runDashboard()
 }
