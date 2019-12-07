@@ -6,7 +6,7 @@
 #' @format A data frame with 12 rows and 2 variables
 #' \describe{
 #' \item{carrier}{Two letter abbreviation}
-#' \item{name}{Full name}
+#' \item{carrier_name}{Full name of the airline}
 #' }
 #' @examples
 #'   airlines
